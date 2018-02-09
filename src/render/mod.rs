@@ -477,7 +477,7 @@ pub struct Renderer {
 
 impl Renderer {
     #[cfg(feature = "opengl")]
-    pub(crate) fn new(
+    pub fn new(
         builder: glutin::WindowBuilder,
         context: glutin::ContextBuilder,
         event_loop: &glutin::EventsLoop,
